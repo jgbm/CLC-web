@@ -3,401 +3,554 @@
 
 <head>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="bulma.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="uids.css">
 
-<title>University of Iowa Computational Logic Center</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+
+    :target:before {
+      content: "";
+      display: block;
+      height: 130px;
+      margin: -130px 0 0;
+    }
+
+    @media (min-width: 855px) {
+      .header-sticky {
+        padding-top: 180px;
+      }
+    }
+
+    .main--secondary--horizontal .menu li a,
+    .main--secondary--horizontal .menu li span {
+      padding-top: 1.375rem;
+      padding-bottom: 1.375rem;
+    }
+
+    .parent-site-name {
+      margin: 0;
+      padding: 1.05rem 0 1rem 1.25rem;
+      font-size: 1.25rem;
+    }
+
+    .iowa-bar--narrow .logo--tab {}
+    .iowa-bar__below {
+      background:
+    }
+  </style>
+
+  <title>University of Iowa Computational Logic Center</title>
 
 </head>
 
-<body>
+<body class="header-sticky">
 
-<header class="section pb-0">
-  <div class="container">
-    <div class="level mb-0">
-      <div class="level-left">
-        <div class="level-item">
-          <p class="title is-2">
-            IOWA
-        </p>
-        </div>
-        <div class="level-item">
-          <p class="subtitle is-4">
-            Computational Logic Center
-          </p>
-      </div>
-      </div>
-      <div class="level-right mr-0">
-        <div class="level-item mr-0">
-          <p>
-            <em>To be replaced by actual Iowa bar</em>
-          </p>
-        </div>
-      </div>
+<header class="iowa-bar iowa-bar--narrow" data-uids-header="data-uids-header">
+  <div class="iowa-bar__container">
+    <div class="logo logo--tab">
+      <a href="https://www.uiowa.edu">
+        <div class="element-invisible">The University of Iowa</div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="logo-icon" aria-labelledby="logo-header" role="img" viewbox="0 0 311.6 90.2">
+          <path class="st0" d="M40 18.8h-7.3v52.4H40v19H0v-19h7.3V18.8H0V0h40V18.8z"></path>
+          <path class="st0" d="M93.8 90.2h-29c-10.5 0-17.4-6.9-17.4-18.2V18.2C47.4 7 54.4 0 64.8 0h29c10.5 0 17.4 7 17.4 18.2V72C111.2 83.2 104.2 90.2 93.8 90.2zM85.6 71.2V18.8H73v52.4H85.6z"></path>
+          <path class="st0" d="M122.6 18.8h-6.4V0h38v18.9H147l6.5 43.4L167 0h19.2l14.4 62.3 5.2-43.4h-6.6V0h37.5v18.9h-6.2l-11.3 71.4h-30.6l-11.8-53.2 -12.1 53.1h-29.4L122.6 18.8z"></path>
+          <path class="st0" d="M230.1 71.2h6.9L250.7 0h41l13.5 71.2h6.4v19H281l-2.9-22h-15.2l-2.7 22h-30L230.1 71.2 230.1 71.2zM276.5 51.7l-5.8-36.4 -6 36.4H276.5z"></path>
+          <image src="../../images/uiowa-primary.png">
+            <title id="logo-header">University of Iowa</title>
+          </image>
+        </svg>
+      </a>
     </div>
-    <nav class="navbar">
-      <div class="navbar-menu is-active">
-        <div class="navbar-start">
+    <div class="parent-site-name">
+      <a href="https://osc.uiowa.edu/">
+        Computational Logic Center
+      </a>
+    </div>
+  </div>
+  <div class="iowa-bar__below">
+    <nav class="nav main--secondary--horizontal">
+      <ul class="menu">
+        <li class="menu-item">
           <a class="navbar-item" href="#people">People</a>
+        </li>
+        <li class="menu-item">
           <a class="navbar-item" href="#projects">Projects</a>
+        </li>
+        <li class="menu-item">
           <a class="navbar-item" href="#software">Software</a>
+        </li>
+        <li class="menu-item">
           <a class="navbar-item" href="#publications">Publications</a>
+        </li>
+        <li class="menu-item">
           <a class="navbar-item" href="#joining">Joining us</a>
-        </div>
-      </div>
+        </li>
+      </ul>
     </nav>
   </div>
 </header>
 
-<section class="section">
-  <div class="container">
-    <p class="subtitle is-4">
-      The Computational Logic Center at The University of Iowa seeks to advance the <strong>theory</strong> and <strong>practice</strong> of correct software development, by applying techniques from <strong>logic</strong>, <strong>programming languages</strong>, and <strong>automated theorem proving</strong>.
-    </p>
-  </div>
-</section>
+<main class="uids-content">
+  <a id="main-content" tabindex="-1"></a>
+  <article role="article" class="page__container">
 
-<section class="section" id="people">
-  <div class="container block">
-    <h2 class="title is-3">
-      People
-    </h2>
-  </div>
+    <section class="section">
+      <p class="uids-component--light-intro">
+        The Computational Logic Center at The University of Iowa seeks to advance the
+        <strong>theory</strong>
+        and
+        <strong>practice</strong>
+        of correct software development, by applying techniques from
+        <strong>logic</strong>,
+        <strong>programming languages</strong>, and
+        <strong>automated theorem proving</strong>.
+      </p>
+    </section>
+    <hr class="element--spacer-thin"/>
+    <hr class="element--spacer-separator"/>
 
-  <div class="container block">
-    <h3 class="subtitle is-4">
-      Faculty and research staff
-    </h3>
-  </div>
+    <section class="section" id="people">
 
-  <div class="container block">
-    <div class="columns is-multiline">
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-content is-flex" style="justify-content:center">
-            <figure class="image is-128x128 is-flex">
-              <a href="https://homepage.divms.uiowa.edu/~comarhaider/">
-                <img class="is-rounded" src="omar.jpg">
-              </a>
-            </figure>
+      <h2 class="headline headline--serif">
+        People
+      </h2>
+      <hr class="element--spacer-separator"/>
+      <h3 class="headline headline--serif headline--underline">
+        Faculty and research staff
+      </h3>
+
+      <div class="grid--threecol--33-34-33">
+        <div class="list-container">
+
+          <div class="bg--white card--stacked media--border card--centered-left card--alignment-left card--enclosed card">
+            <div class="card__media media--circle card__media--medium">
+              <img src="omar.jpg">
+            </div>
+            <div class="card__body">
+              <h2 class="card__title headline">
+                <a href="https://homepage.divms.uiowa.edu/~comarhaider/" aria-describedby="comarhaider">
+                  Omar Haider Chowdhury</a>
+              </h2>
+              <div class="card__details">
+                <div class="card__subtitle">
+                  Assistant Professor
+                </div>
+              </div>
+              <p>
+                <em>Put a little more content here---research interests, projects, maybe contact info.</em>
+            </div>
           </div>
-          <div class="card-content">
-            <p class="title is-4">
-              Omar Haider Chowdhury
-            </p>
-            <p class="subtitle is-6">
-              Assistant Professor
-            </p>
-            <p>
-              <em>Put a little more content here---research interests, projects, maybe contact info.</em>
+
+          <div class="bg--white card--stacked media--border card--centered-left card--alignment-left card--enclosed card">
+            <div class="card__media media--circle card__media--medium">
+              <img src="daniel.jpg">
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                Daniel Larraz
+              </h2>
+              <div class="card__details">
+                <div class="card__subtitle">
+                  Assistant Research Scientist
+                </div>
+              </div>
+              <p>
+                <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </em>
+              </p>
+            </div>
           </div>
-        </div>
+
+          <div class="bg--white card--stacked media--border card--centered-left card--alignment-left card--enclosed card">
+            <div class="card__media media--circle card__media--medium">
+              <img src="garrett.jpg">
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                J. Garrett Morris
+              </h2>
+              <div class="card__details">
+                <div class="card__subtitle">
+                  Assistant Professor
+                </div>
+              </div>
+              <p>
+                <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </em>
+              </p>
+            </div>
+          </div>
+
+          <div class="bg--white card--stacked media--border card--centered-left card--alignment-left card--enclosed card">
+            <div class="card__media media--circle card__media--medium">
+              <img src="andrew.jpg">
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                Andrew Reynolds
+              </h2>
+              <div class="card__details">
+                <div class="card__subtitle">
+                  Assistant Research Scientist
+                </div>
+              </div>
+              <p>
+                <em>How does it look a little longer? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                  commodo consequat.</em>
+              </p>
+            </div>
+          </div>
+
+          <div class="bg--white card--stacked media--border card--centered-left card--alignment-left card--enclosed card">
+            <div class="card__media media--circle card__media--medium">
+              <img src="aaron.jpg">
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                Aaron Stump
+              </h2>
+              <div class="card__details">
+                <div class="card__subtitle">
+                  Professor
+                </div>
+              </div>
+              <p>
+                <em>Not good, I think. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em>
+              </p>
+            </div>
+          </div>
+
+          <div class="bg--white card--stacked media--border card--centered-left card--alignment-left card--enclosed card">
+            <div class="card__media media--circle card__media--medium">
+              <img src="cesare.jpg">
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                Cesare Tinelli
+              </h2>
+              <div class="card__details">
+                <div class="card__subtitle">
+                  F. Wendell Miller Professor
+                </div>
+              </div>
+              <p>
+                <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em>
+              </p>
+            </div>
+          </div>
+
+      </div>
       </div>
 
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-content is-flex" style="justify-content:center">
-            <figure class="image is-128x128 is-flex">
-              <img class="is-rounded" src="daniel.jpg">
-            </figure>
-          </div>
-          <div class="card-content">
-            <p class="title is-4">
-              Daniel Larraz
-            </p>
-            <p class="subtitle is-6">
-              Assistant Research Scientist
-            </p>
-            <p>
-              <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </em>
-            </p>
-          </div>
-        </div>
-      </div>
+      <hr class="element--spacer-separator"/>
 
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-content is-flex" style="justify-content:center">
-            <figure class="image is-128x128 is-flex">
-              <img class="is-rounded" src="garrett.jpg">
-            </figure>
-          </div>
-          <div class="card-content">
-            <p class="title is-4">
-              J. Garrett Morris
-            </p>
-            <p class="subtitle is-6">
-              Assistant Professor
-            </p>
-            <p>
-              <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </em>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-content is-flex" style="justify-content:center">
-            <figure class="image is-128x128 is-flex">
-              <img class="is-rounded" src="andrew.jpg">
-            </figure>
-          </div>
-          <div class="card-content">
-            <p class="title is-4">
-              Andrew Reynolds
-            </p>
-            <p class="subtitle is-6">
-              Assistant Research Scientist
-            </p>
-            <p>
-              <em>How does it look a little longer? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em>
-            </p>
-          </div>
-        </div>
-      </div>
+      <h3 class="headline headline--serif headline--underline">
+        Students
+      </h3>
 
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-content is-flex" style="justify-content:center">
-            <figure class="image is-128x128 is-flex">
-              <img class="is-rounded" src="aaron.jpg">
-            </figure>
-          </div>
-          <div class="card-content">
-            <p class="title is-4">
-              Aaron Stump
-            </p>
-            <p class="subtitle is-6">
-              Professor
-            </p>
-            <p>
-              <em>Not good, I think. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em>
-            </p>
-          </div>
-        </div>
-      </div>
+      <div class="grid--twocol--50-50">
+        <div class="list-container">
 
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-content is-flex" style="justify-content:center">
-            <figure class="image is-128x128 is-flex">
-              <img class="is-rounded" src="cesare.jpg">
-            </figure>
-          </div>
-          <div class="card-content">
-            <p class="title is-4">
-              Cesare Tinelli
-            </p>
-            <p class="subtitle is-6">
-              F. Wendell Miller Professor
-            </p>
-            <p>
-              <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container block">
-    <h3 class="subtitle is-4">
-      Students
-    </h3>
-
-    <div class="columns is-multiline">
-      <div class="column is-one-quarter">
-        <div class="media">
-          <figure class="media-left">
-            <p class="image is-64x64">
+          <div class="card bg--white card--media-left">
+            <div class="card__media media--circle card__media--small">
               <a href="https://cs.uiowa.edu/people/apoorv-ingle">
                 <img src="apoorv.jpg">
               </a>
-            </p>
-          </figure>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>Apoorv Ingle</strong> <br>
-                Ph.D. student<br>
-                <em>Advisor:</em> J. Garrett Morris
-              </p>
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                Apoorv Ingle</h2>
+              <div class="card__details">
+                <div class="card__subtitle">
+                  Ph.D. student
+                </div>
+                <div class="card__date">
+                  <em>Advisor:</em>
+                  J. Garrett Morris</div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="column is-one-quarter">
-        <div class="media">
-          <figure class="media-left">
-            <p class="image is-64x64">
-              <a href="https://homepage.cs.uiowa.edu/~cwjnkins/">
-                <img src="chris.jpg">
-              </a>
-            </p>
-          </figure>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>Chris Jenkins</strong> <br>
-                Ph.D. student<br>
-                <em>Advisor:</em> Aaron Stump
-              </p>
+
+          <div class="card bg--white card--media-left">
+            <div class="card__media media--circle card__media--small">
+              <img src="chris.jpg">
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                <a href="https://homepage.cs.uiowa.edu/~cwjnkins/">Chris Jenkins</a>
+              </h2>
+              <div class="card__details">
+                <div class="card__subtitle">
+                  Ph.D. student
+                </div>
+                <div class="card__date">
+                  <em>Advisor:</em>
+                  Aaron Stump
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
-    </div>
-  </div>
 
-  <div class="container block">
-    <h3 class="subtitle is-4">
-      Alumni
-    </h3>
-    <div class="columns is-multiline">
-      <div class="column is-one-third">
-        <div class="media">
-          <figure class="media-left">
-            <p class="image is-64x64">
-              <a href="https://homepage.cs.uiowa.edu/~cwjnkins/">
-                <img src="harley.jpg">
-              </a>
-            </p>
-          </figure>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>Harley Eades III</strong> <br>
-                Ph.D., 2014<br>
-                Associate Professor, Augusta University
-              </p>
+      <h3 class="headline headline--serif headline--underline">
+        Alumni
+      </h3>
+
+      <div class="grid--twocol--50-50">
+        <div class="list-container">
+
+          <div class="card bg--white card--media-left">
+            <div class="card__media media--circle card__media--small">
+              <img src="harley.jpg">
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                <a href="https://homepage.cs.uiowa.edu/~cwjnkins/">Harley Eades III
+                </a>
+              </h2>
+              <div class="card__details">
+                <div class="card__subtitle">
+                  Ph.D., 2014</div>
+                <div class="card__date">
+                  Associate Professor, Augusta University
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
-    </div>
-  </div>
-</section>
 
+    </section>
 
-<section class="section" id="software">
-  <div class="container block">
-    <h2 class="title is-3">
-      Software
-    </h2>
+    <section class="section" id="software">
+      <hr class="element--spacer-separator"/>
 
-    <div class="card">
-      <div class="card-header">
-        <p class="card-header-title">
-          Cedille
-        </p>
+      <h2 class="headline headline--serif ">
+        Software
+      </h2>
+      <br />
+      <!-- div class="grid--twocol--50-50" -->
+        <div class="list-container">
+          <div class="card bg--white card--enclosed card--media-left">
+            <div class="card__media-small">
+              <img class="card__img" src="1-small.jpg" alt="Cedille code screenshot">
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                <a href="https://cedille.github.io" aria-describedby="cedille">Cedille</a>
+              </h2>
+              <p>
+                Cedille is an interactive theorem-prover and dependently typed programming language, based on extrinsic (aka Curry-style) type theory.
+              </p>
+              <p>
+                Cedille’s type theory allows one to derive inductive datatypes, together with their induction principles. These derivations are done via lambda-encodings, including not just the familiar Church encoding (with its well-known limitation to inefficient
+                accessors), but also more efficient Parigot and Mendler encodings.
+              </p>
+
+              <div class="bttn bttn--outline bttn--sans-serif" href="https://cedille.github.io" id="comarhaider">Read more at cedille.github.io
+                <i class="fas fa-arrow-right"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="card bg--white card--media-left card--enclosed">
+            <div class="card__media-small">
+              <img class="card__img" src="2-small.jpg" alt="Kind 2 code screenshot">
+            </div>
+            <div class="card__body">
+              <h2 class="headline card__title">
+                <a href="https://kind2-mc.github.io/kind2/" aria-describedby="kind-2">Kind 2</a>
+              </h2>
+              <p>
+                Kind 2 is an open-source, multi-engine, SMT-based automatic model checker for safety properties of finite-state or infinite-state synchronous reactive systems expressed as in an extension of the Lustre language.
+              </p>
+              <div class="bttn bttn--outline bttn--sans-serif" id="kind-2">Read more at kind2-mc.github.io
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          <!-- /div -->
+
+        </div>
       </div>
-      <div class="card-content">
-        <p class="block">
-          Cedille is an interactive theorem-prover and dependently typed programming language, based on extrinsic (aka Curry-style) type theory.
-        </p>
-        <p class="block">
-          Cedille’s type theory allows one to derive inductive datatypes, together with their induction principles. These derivations are done via lambda-encodings, including not just the familiar Church encoding (with its well-known limitation to inefficient accessors), but also more efficient Parigot and Mendler encodings.
-        </p>
-        <p class="block">
-          <a class="button" href="https://cedille.github.io">Read more at cedille.github.io</a>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        <p class="card-header-title">
-          Kind 2
-        </p>
-      </div>
-      <div class="card-content">
-        <p class="block">
-          Kind 2 is an open-source, multi-engine, SMT-based automatic model checker for safety properties of finite-state or infinite-state synchronous reactive systems expressed as in an extension of the Lustre language.
-        <p class="block">
-          <a class="button" href="https://kind2-mc.github.io/kind2/">Read more at kind2-mc.github.io</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="section" id="projects">
-  <div class="container block">
-    <h2 class="title is-3">
-      Projects
-    </h2>
+    </section>
 
-    <div class="content">
+    <section class="section" id="projects">
+      <hr class="element--spacer-separator"/>
+      <h2 class="headline headline--serif ">
+        Projects
+      </h2>
       <ul>
-        <li> HERMES: A Hybrid Efficient Reasoning Method for Explainable and Scalable formal methods, co-PI. DARPA grant #N66001-18-C-4012 (in collaboration with United Technologies Research Center and Stanford University), 2018-22.  PI: Tinelli.
-        <li> VERDICT: Verification Evidence & Resilient Design In anticipation of Cybersecurity Threats, co-PI. DARPA grant #N66001-18-C-4006 (in collaboration with GE Global Research and GE Aviation), 2018-22. PI: Tinelli.
-        <li> VADD: Verified Application Debloating and Delayering, co-PI. ONR grant #N68335-17-C-0558 (in collaboration with Galois Inc., SRI and Stanford University), 2018-21. PI: Tinelli.
-        <li> CI-SUSTAIN: StarExec: Cross-Community Infrastructure for Logic Solving, co-PI. NSF grant #1729603 (in collaboration with U. Miami, grant 1730419), 2017-20. PI: Tinelli.
+        <li>
+          HERMES: A Hybrid Efficient Reasoning Method for Explainable and Scalable formal methods, co-PI. DARPA grant #N66001-18-C-4012 (in collaboration with United Technologies Research Center and Stanford University), 2018-22. PI: Tinelli.
+        <li>
+          VERDICT: Verification Evidence & Resilient Design In anticipation of Cybersecurity Threats, co-PI. DARPA grant #N66001-18-C-4006 (in collaboration with GE Global Research and GE Aviation), 2018-22. PI: Tinelli.
+        <li>
+          VADD: Verified Application Debloating and Delayering, co-PI. ONR grant #N68335-17-C-0558 (in collaboration with Galois Inc., SRI and Stanford University), 2018-21. PI: Tinelli.
+        <li>
+          CI-SUSTAIN: StarExec: Cross-Community Infrastructure for Logic Solving, co-PI. NSF grant #1729603 (in collaboration with U. Miami, grant 1730419), 2017-20. PI: Tinelli.
       </ul>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="section" id="publications">
-  <div class="container block">
-    <h2 class="title is-3">
-      Publications
-    </h2>
+    <section class="section" id="publications">
+      <hr class="element--spacer-separator"/>
 
-    <div class="content">
+      <h2 class="headline headline--serif ">
+        Publications
+      </h2>
+
       <ul>
 
-	<li>Mark Jones, J. Garrett Morris, and Richard Eisenberg. "Partial Type Constructors; Or, Making ad hoc datatypes less ad hoc". Proc. ACM Program. Lang., 4, POPL (January 2020).
+        <li>Mark Jones, J. Garrett Morris, and Richard Eisenberg. "Partial Type Constructors; Or, Making ad hoc datatypes less ad hoc". Proc. ACM Program. Lang., 4, POPL (January 2020).
 
-	<li>Haniel Barbosa, Andrew Reynolds, Daniel Larraz and Cesare Tinelli. Extending enumerative function synthesis via SMT-driven classification. In Proceedings of the 19th conferences on Formal Methods in Computer-Aided Design (FMCAD'19), San Jose, CA, USA, 2019. DOI 10.23919/FMCAD.2019.8894267.
+        <li>Haniel Barbosa, Andrew Reynolds, Daniel Larraz and Cesare Tinelli. Extending enumerative function synthesis via SMT-driven classification. In Proceedings of the 19th conferences on Formal Methods in Computer-Aided Design (FMCAD'19), San Jose, CA,
+          USA, 2019. DOI 10.23919/FMCAD.2019.8894267.
 
-	<li>Burak Ekici, Arjun Viswanathan, Yoni Zohar, Clark Barrett and Cesare Tinelli. Verifying Bit-vector Invertibility Conditions in Coq (Extended Abstract). In Proceedings of the sixth Workshop on Proof eXchange for Theorem Proving (PxTP 2019), Natal, Brazil, 2019. DOI 10.4204/EPTCS.301.4.
+        <li>Burak Ekici, Arjun Viswanathan, Yoni Zohar, Clark Barrett and Cesare Tinelli. Verifying Bit-vector Invertibility Conditions in Coq (Extended Abstract). In Proceedings of the sixth Workshop on Proof eXchange for Theorem Proving (PxTP 2019), Natal,
+          Brazil, 2019. DOI 10.4204/EPTCS.301.4.
 
-	<li>Haniel Barbosa, Andrew Reynolds, Daniel El Ouraoui, Cesare Tinelli and Clark Barrett. Extending SMT solvers to Higher-Order Logic. In Proceedings of the 27th International Conference on Automated Deduction (CADE-27), Natal, Brazil, 2019. DOI 10.1007/978-3-030-29436-6_3.
+        <li>Haniel Barbosa, Andrew Reynolds, Daniel El Ouraoui, Cesare Tinelli and Clark Barrett. Extending SMT solvers to Higher-Order Logic. In Proceedings of the 27th International Conference on Automated Deduction (CADE-27), Natal, Brazil, 2019. DOI
+          10.1007/978-3-030-29436-6_3.
 
-	<li>Aina Niemetz, Mathias Preiner, Andrew Reynolds, Yoni Zohar, Clark Barrett and Cesare Tinelli. Towards Bit Width Independent Proofs in SMT Solvers. In Proceedings of the 27th International Conference on Automated Deduction (CADE-27), Natal, Brazil, 2019. DOI 10.1007/978-3-030-29436-6_22.
+        <li>Aina Niemetz, Mathias Preiner, Andrew Reynolds, Yoni Zohar, Clark Barrett and Cesare Tinelli. Towards Bit Width Independent Proofs in SMT Solvers. In Proceedings of the 27th International Conference on Automated Deduction (CADE-27), Natal,
+          Brazil, 2019. DOI 10.1007/978-3-030-29436-6_22.
 
-	<li>Martin Brain, Aina Niemetz, Mathias Preiner, Andrew Reynolds, Clark Barrett, Cesare Tinelli Invertibility Conditions for Floating-Point Formulas. In Proceedings of the 31st International Conference on Computer Aided Verification (CAV 2019), New York, NY, USA, 2019. DOI 10.1007/978-3-030-25543-5_8.
+        <li>Martin Brain, Aina Niemetz, Mathias Preiner, Andrew Reynolds, Clark Barrett, Cesare Tinelli Invertibility Conditions for Floating-Point Formulas. In Proceedings of the 31st International Conference on Computer Aided Verification (CAV 2019), New
+          York, NY, USA, 2019. DOI 10.1007/978-3-030-25543-5_8.
 
-	<li>Andrew Reynolds, Haniel Barbosa, Andres Nötzli, Clark Barrett, Cesare Tinelli. cvc4sy: Smart and Fast Term Enumeration for Syntax-Guided Synthesis. In Proceedings of the 31st International Conference on Computer Aided Verification (CAV 2019), New York, NY, USA, 2019. DOI 10.1007/978-3-030-25543-5_5.
+        <li>Andrew Reynolds, Haniel Barbosa, Andres Nötzli, Clark Barrett, Cesare Tinelli. cvc4sy: Smart and Fast Term Enumeration for Syntax-Guided Synthesis. In Proceedings of the 31st International Conference on Computer Aided Verification (CAV 2019), New
+          York, NY, USA, 2019. DOI 10.1007/978-3-030-25543-5_5.
 
-	<li>Wen Kokke, J. Garrett Morris, and Philip Wadler. "Towards Races in Linear Logic". COORDINATION '19.
+        <li>Wen Kokke, J. Garrett Morris, and Philip Wadler. "Towards Races in Linear Logic". COORDINATION '19.
 
-	<li>J. Garrett Morris and James McKinna. "Abstracting Extensible Data Types; Or, Rows By Any Other Name." Proc. ACM Program. Lang., 3, POPL (January 2019).
+        <li>J. Garrett Morris and James McKinna. "Abstracting Extensible Data Types; Or, Rows By Any Other Name." Proc. ACM Program. Lang., 3, POPL (January 2019).
 
-	<li>Simon Fowler, Sam Lindley, J. Garrett Morris, and Sára Decova. "Exceptional Asynchronous Session Types: Session Types without Tiers." Proc. ACM Program. Lang., 3, POPL (January 2019).
+        <li>Simon Fowler, Sam Lindley, J. Garrett Morris, and Sára Decova. "Exceptional Asynchronous Session Types: Session Types without Tiers." Proc. ACM Program. Lang., 3, POPL (January 2019).
 
       </ul>
+
+    </section>
+
+    <section class="section" id="joining">
+      <hr class="element--spacer-separator"/>
+      <h2 class="headline headline--serif ">
+        Joining us
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </section>
+
+  </article>
+</main>
+
+<footer class="footer">
+  <div class="footer__container footer__container--flex">
+    <div class="footer__links footer__links--contact">
+
+      <div class="logo logo--footer">
+        <a href="https://www.uiowa.edu">
+          <div class="element-invisible">The University of Iowa</div>
+          <svg xmlns="http://www.w3.org/2000/svg" class="logo-icon" aria-labelledby="logo-footer" role="img" viewbox="0 0 311.6 90.2">
+            <path class="st0" d="M40 18.8h-7.3v52.4H40v19H0v-19h7.3V18.8H0V0h40V18.8z"></path>
+            <path class="st0" d="M93.8 90.2h-29c-10.5 0-17.4-6.9-17.4-18.2V18.2C47.4 7 54.4 0 64.8 0h29c10.5 0 17.4 7 17.4 18.2V72C111.2 83.2 104.2 90.2 93.8 90.2zM85.6 71.2V18.8H73v52.4H85.6z"></path>
+            <path class="st0" d="M122.6 18.8h-6.4V0h38v18.9H147l6.5 43.4L167 0h19.2l14.4 62.3 5.2-43.4h-6.6V0h37.5v18.9h-6.2l-11.3 71.4h-30.6l-11.8-53.2 -12.1 53.1h-29.4L122.6 18.8z"></path>
+            <path class="st0" d="M230.1 71.2h6.9L250.7 0h41l13.5 71.2h6.4v19H281l-2.9-22h-15.2l-2.7 22h-30L230.1 71.2 230.1 71.2zM276.5 51.7l-5.8-36.4 -6 36.4H276.5z"></path>
+            <image src="../../images/uiowa-primary.png">
+              <title id="logo-footer">University of Iowa</title>
+            </image>
+          </svg>
+        </a>
+      </div>
+
+      <p>Iowa City, Iowa 52242<br>
+        <a href="tel:319-335-3500">
+          <i class="fas fa-phone"></i>
+          319-335-3500</a><br/>
+      </p>
+
+      <div class="footer__links footer__links--icon">
+        <nav role="navigation">
+          <ul class="menu">
+
+            <li class="menu-item">
+              <a href="https://uiowa.edu/">
+                <i class="fab fa-facebook-square"></i>
+                <span class="link-text">Facebook</span></a>
+            </li>
+
+            <li class="menu-item">
+              <a href="https://uiowa.edu/">
+                <i class="fab fa-twitter-square"></i>
+                <span class="link-text">Twitter</span></a>
+            </li>
+
+            <li class="menu-item">
+              <a href="https://uiowa.edu/">
+                <i class="fab fa-instagram"></i>
+                <span class="link-text">Instagram</span></a>
+            </li>
+
+            <li class="menu-item">
+              <a href="https://uiowa.edu/">
+                <i class="fab fa-snapchat"></i>
+                <span class="link-text">Snapchat</span></a>
+            </li>
+
+            <li class="menu-item">
+              <a href="https://uiowa.edu/">
+                <i class="fab fa-youtube"></i>
+                <span class="link-text">Youtube</span></a>
+            </li>
+
+            <li class="menu-item">
+              <a href="https://uiowa.edu/">
+                <i class="fab fa-linkedin"></i>
+                <span class="link-text">LinkedIn</span></a>
+            </li>
+
+            <li class="menu-item">
+              <a href="https://uiowa.edu/">
+                <i class="fab fa-pinterest"></i>
+                <span class="link-text">Pinterest</span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="socket">
+        <ul class="socket__menu">
+          <li>© 2021 The University of Iowa</li>
+          <li>
+            <a href="https://uiowa.edu/privacy">Privacy Notice</a>
+          </li>
+          <li>
+            <a href="https://opsmanual.uiowa.edu/community-policies/nondiscrimination-statement">Nondiscrimination Statement</a>
+          </li>
+          <li>
+            <a href="https://uiowa.edu/accessibility">Accessibility</a>
+          </li>
+        </ul>
+      </div>
+
     </div>
-  </div>
-</section>
 
-<section class="section" id="joining">
-  <div class="container block">
-    <h2 class="title is-3">
-      Joining us
-    </h2>
-
-    <p class="block">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </div>
-</section>
-
-<footer class="section">
-  <div class="container">
-    <p class="title is-3 block">
-      IOWA
-    </p>
-    <p class="block">
-      <em>Iowa footer goes here.</em>
-    </p>
   </div>
 </footer>
-
-
-
-
+<script type="text/javascript" src="card.js"></script>
 </body>
-
 </html>
